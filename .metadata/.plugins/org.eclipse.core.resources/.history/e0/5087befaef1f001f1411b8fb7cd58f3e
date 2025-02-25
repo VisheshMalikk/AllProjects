@@ -1,0 +1,31 @@
+package StringPrograms;
+
+public class UsingParams {
+
+	public static void main(String args[]) {
+		
+		double a, b, c;
+		
+		a = Double.valueOf(args[0]);
+		b = Double.valueOf(args[1]);
+		c = a+b;
+		System.out.println("Additon : " + c);
+		
+		
+		// ----------------- Parse String to int -----------
+		String s1 = "100";
+		int s2 = 200;
+		int result = Integer.parseInt(s1);
+		int value = s2+result;
+		System.out.println("Parsed to Int : " + value);
+		
+		// ----------------- Parse Int to String -----------
+		int v1 = 100;
+		String v2 = "500";
+		String res = String.valueOf(v1);
+		String valu = v2+res;
+		System.out.println("Parsed to Int : " + val);
+		
+	}
+
+}

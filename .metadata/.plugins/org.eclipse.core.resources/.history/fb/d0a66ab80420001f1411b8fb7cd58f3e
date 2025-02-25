@@ -1,0 +1,22 @@
+package StringPrograms;
+
+import java.util.Scanner;
+
+public class myname {
+
+	public static void main(String[] args) {
+	 
+		Scanner sc=new Scanner(System.in);
+	
+	
+	int  firstname = sc.nextInt();
+	int  lastname = sc.nextInt();
+	 System.out.println("MY FULL NAME IS:" + firstname);
+	 System.out.println("my full name is:" + lastname);
+	
+	
+	
+	
+	}
+
+}

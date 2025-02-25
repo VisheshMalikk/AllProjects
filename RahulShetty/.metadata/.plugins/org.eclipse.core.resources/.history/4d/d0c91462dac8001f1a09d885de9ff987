@@ -1,0 +1,16 @@
+package FileHandling;
+
+import java.io.BufferedWriter;
+
+public class WriteToFile {
+
+	public static void main(String[] args) {
+		
+		WriteToFile writer = new WriteToFile("filename.txt");
+		
+		BufferedWriter bf = new BufferedWriter(writer);
+
+
+	}
+
+}

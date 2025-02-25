@@ -1,0 +1,9 @@
+package Other;
+
+public class Snippet {
+	protected void display()
+	    {
+	        System.out.println("GeeksforGeeks");
+	    }
+}
+

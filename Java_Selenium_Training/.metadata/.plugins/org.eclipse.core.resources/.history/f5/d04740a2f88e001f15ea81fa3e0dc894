@@ -1,0 +1,14 @@
+package Day1;
+
+class DefaultAccessModifiers {
+
+	public static void main(String[] args) {
+		DefaultAccessModifiers defaultAcc = new DefaultAccessModifiers();
+		defaultAcc.message();
+	}
+
+	void message() {
+		System.out.println("Hey How are you ?");
+	}
+
+}

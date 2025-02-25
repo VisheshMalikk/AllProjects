@@ -1,0 +1,26 @@
+package StringPrograms;
+
+import java.util.Scanner;
+
+public class scannerclass {
+
+	public static void g(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		 try
+		 {
+		
+		 
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int sum=a+b;
+		
+		System.out.println("sum : " + sum);
+		 }
+catch (Exception ex)
+		 {
+	System.out.println(ex.getMessage());
+		 }
+
+}
+}

@@ -1,0 +1,9 @@
+package Inheritance;
+
+public class Account {
+	
+	public void Account() {
+		
+	}
+
+}

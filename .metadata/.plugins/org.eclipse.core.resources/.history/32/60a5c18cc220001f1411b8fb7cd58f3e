@@ -1,0 +1,35 @@
+package StringPrograms;
+import java.util.*;
+public class menudriven {
+
+	public static void main(String[] args) {
+
+	Scanner sc=new Scanner(System.in);
+	
+	double add,sub,div,mul,ch;
+	
+	ch = sc.nextInt();ch = sc.nextInt();ch = sc.nextInt();	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

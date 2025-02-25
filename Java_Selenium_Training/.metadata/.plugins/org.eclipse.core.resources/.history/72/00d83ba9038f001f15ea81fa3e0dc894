@@ -1,0 +1,14 @@
+package Other;
+
+import Day1.AccessModifiersDefaultSamePackage;
+
+public class AccessModifiersDefaultAnotherPackage {
+	
+	public static void main(String args[]) 
+    { 
+        // Accessing class Geek from package p1 
+		AccessModifiersDefaultSamePackage obj = new AccessModifiersDefaultSamePackage(); 
+        obj.display(); 
+    } 
+
+}

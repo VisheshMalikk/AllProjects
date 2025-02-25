@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-19T09:24:29 IST" name="Default suite" finished-at="2024-01-19T09:24:40 IST" duration-ms="11562">
+    <groups>
+    </groups>
+    <test started-at="2024-01-19T09:24:29 IST" name="Default test" finished-at="2024-01-19T09:24:40 IST" duration-ms="11562">
+      <class name="AutomationPractice.ExceptionHandling">
+        <test-method signature="fnExceptionHandling()[pri:0, instance:AutomationPractice.ExceptionHandling@2c1b194a]" started-at="2024-01-19T09:24:29 IST" name="fnExceptionHandling" finished-at="2024-01-19T09:24:40 IST" duration-ms="11518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnExceptionHandling -->
+      </class> <!-- AutomationPractice.ExceptionHandling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

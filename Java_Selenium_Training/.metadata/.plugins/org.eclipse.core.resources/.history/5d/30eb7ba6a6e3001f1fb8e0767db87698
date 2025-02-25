@@ -1,0 +1,21 @@
+package CoforgeJavaTraining;
+
+public class c2 {
+	
+	String name;
+	int n;
+	
+	
+	public c2() {
+		
+	}
+	
+	
+
+	public static void main(String[] args) {
+		
+		c2 c = new c2();
+		
+	}
+
+}

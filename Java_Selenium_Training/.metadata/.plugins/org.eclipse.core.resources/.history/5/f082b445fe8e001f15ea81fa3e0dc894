@@ -1,0 +1,16 @@
+package Day1;
+
+public class AccessModifiersPublic2 {
+	// Public variable
+	public String type;
+
+	// Constructor
+	public AccessModifiersPublic2(String type) {
+		this.type = type;
+	}
+
+	// Public method
+	public void displayInfo() {
+		System.out.println("Vehicle Type: " + type);
+	}
+}

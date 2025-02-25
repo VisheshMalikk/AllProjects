@@ -1,0 +1,25 @@
+package StringPrograms;
+
+public class OverloadingForMainMethod {
+	
+	// Yes, we can overload main method
+	// We cannot override static method
+	// Static method can be overload
+	
+	void main() {
+		System.out.println("simple main method");
+	}
+	
+	static void main(int x) {
+		System.out.println("simple main method with parameter");
+	}
+	
+
+	// JVM always looks for standard main method
+	public static void main(String[] args) {
+		System.out.println("JVM looks for standard main method");
+		OverloadingForMainMethod om = new OverloadingForMainMethod();
+		om.main();
+	}
+	
+}

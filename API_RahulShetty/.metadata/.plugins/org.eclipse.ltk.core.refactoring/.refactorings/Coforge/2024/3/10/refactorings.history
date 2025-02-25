@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;reuseableMethods.java&apos; to &apos;BookApiProject/src/files&apos;&#x0D;&#x0A;- Original project: &apos;Coforge&apos;&#x0D;&#x0A;- Destination element: &apos;BookApiProject/src/files&apos;&#x0D;&#x0A;- Original element: &apos;files.reuseableMethods.java&apos;" description="Copy compilation unit" destination="=BookApiProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;files" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;files{reuseableMethods.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1710004064601" units="1" version="1.0"/>
+</session>

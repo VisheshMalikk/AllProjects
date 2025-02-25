@@ -1,0 +1,90 @@
+package StringPrograms;
+import java.util.*;
+public class menudriven {
+
+	public static void main(String[] args) {
+
+	Scanner sc=new Scanner(System.in);
+	
+	double add,sub,div,mul;
+	int ch;
+ System.out.println("Calculator menu");
+ System.out.println("1. ADDITION");
+ System.out.println("2. SUBSTRACTION");
+ System.out.println("3. MULTIPLICATION");
+ System.out.println("4. DIVISION");
+ 
+ ch=sc.nextInt();
+ 
+ 
+ System.out.println("enter value for a ");
+ System.out.println("enter value for b");
+ 
+ add=sc.nextDouble();
+ sub=sc.nextDouble();
+ mul=sc.nextDouble();
+ div=sc.nextDouble();
+ 
+
+   int a = sc.nextInt();
+   int b = sc.nextInt();
+  
+	switch(ch) {
+	
+	case 1: add= a+b;
+	System.out.println("ADDITION IS :" +add);
+	break;
+	case 2: sub= a-b;
+	System.out.println("SUBSTRACTION IS : " +sub);
+	break;
+	case 3: mul= a*b;
+	System.out.println("MULTIPLICATION IS :" +mul);
+	break;
+	case 4: div= a/b;
+	System.out.println("DIVISION IS:" +div);
+	break;
+	
+	default: System.out.println("IT IS A WRONG CHOICE");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

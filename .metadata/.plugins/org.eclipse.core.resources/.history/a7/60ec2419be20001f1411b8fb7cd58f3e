@@ -1,0 +1,31 @@
+package StringPrograms;
+
+import java.util.Scanner;
+
+public class switchcase {
+	public static void main() {
+  Scanner sc=new Scanner(System.in);
+  
+  int s,ar,per;
+  
+  System.out.println("SIDE OF A TRIANGLE");
+  s=sc.nextInt();
+  ar=sc.nextInt();
+  per=sc.nextInt();
+  int ch=sc.nextInt();
+  Switch(); {
+
+  Case1 : ar = s*s;
+  System.out.println("Area is:" +ar);
+  break;
+  
+  
+  Case2 : per = 4*s;
+  System.out.println("Perimeter is:" +per);
+  break;
+  
+  default : 
+  System.out.println("It is a wrong choice");
+  }
+  }
+}

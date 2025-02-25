@@ -1,0 +1,18 @@
+package FileHandling;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class WriteToFile {
+
+	public static void main(String[] args) throws IOException {
+		
+		FileWriter writer = new FileWriter("C:\\Users\\Vishesh.1.Malik\\Downloads\\ReadFile.txt");
+		
+		BufferedWriter bf = new BufferedWriter(writer);
+		bf.write("Vishesh Malik");
+
+	}
+
+}

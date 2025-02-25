@@ -1,0 +1,15 @@
+package StringPrograms;
+
+public class UsingParams {
+
+	public static void main(String args[]) {
+		
+		double a, b, c;
+		
+		a = Double.valueOf(args[0]);
+		b = Double.valueOf(args[1]);
+		c = a+b;
+		System.out.println("Additon : " + c);
+	}
+
+}

@@ -1,0 +1,27 @@
+package ArrayPrograms;
+
+public class sum {
+
+	public static void main(String[] args) {
+		
+	
+
+	}
+
+	public void addition(int a=10, int b=) {
+		int sum = a + b;
+	}
+
+	public void subtraction(int x, int y) {
+		int sub = x-y;
+	}
+
+	public void division(int c, int d) {
+		int div = c/d;
+	}
+
+	public void multiplication(int k, int l) {
+		int mult = k*l;
+	}
+
+}

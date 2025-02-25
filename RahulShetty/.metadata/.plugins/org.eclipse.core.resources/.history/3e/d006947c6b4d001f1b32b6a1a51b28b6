@@ -1,0 +1,25 @@
+package StringPrograms;
+
+public class LongestSubstringWithoutRepeatedChars {
+
+	public static void main(String[] args) {
+		
+		Map<Character, Integer> charToIndex = new HashMap<>(s.length());
+	    int maxLength = 0;
+	    int start = 0;
+	    
+	    for (int end = 0; end < s.length(); end++) {
+	        char next = s.charAt(end);
+	        if (charToIndex.containsKey(next) && charToIndex.get(next) >= start) {
+	            start = charToIndex.get(next) + 1;
+	        }
+	        charToIndex.put(next, end);
+	        maxLength = Math.max(maxLength,  end - start + 1);
+	    }
+	    return maxLength; 
+
+	    }
+
+	}
+
+}

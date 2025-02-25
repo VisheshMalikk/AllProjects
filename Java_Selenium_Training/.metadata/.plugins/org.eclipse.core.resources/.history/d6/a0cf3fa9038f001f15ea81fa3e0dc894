@@ -1,0 +1,10 @@
+package Day1;
+
+public class AccessModifiersDefaultSamePackage {
+	
+	void display() 
+    { 
+        System.out.println("Hello World!"); 
+    } 
+
+}

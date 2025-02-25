@@ -1,0 +1,19 @@
+package StringPrograms;
+
+public class StaticMethodOverloaded {
+
+	public static void main(String[] args) {
+	
+		
+
+	}
+	
+	public static String printName() {
+		
+	}
+	
+	public static String printName() {
+		
+	}
+
+}

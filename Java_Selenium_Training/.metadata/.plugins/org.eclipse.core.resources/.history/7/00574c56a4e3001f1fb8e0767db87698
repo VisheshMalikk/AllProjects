@@ -1,0 +1,19 @@
+package Day1;
+
+public class c2 {
+
+	public static void main(String[] args) {
+		
+		String[] names = {"Coforge", "HCL", "Infosys", "ZS"};
+		
+		System.out.println(names[3]);
+		
+		int len = names.length;
+		
+		
+		
+		
+
+	}
+
+}

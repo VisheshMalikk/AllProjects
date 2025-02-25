@@ -1,0 +1,16 @@
+package CollectionFrameworkRelatedProgram.Map;
+
+public class Main {
+	
+	
+	public static void main(String[] args) {
+		
+		Main obj1 = new Main();
+		Main obj2 = new Main();
+	}
+	
+	public Main() {
+		
+	}
+}
+

@@ -1,0 +1,12 @@
+package RahulShettyAcademy.TestComponents;
+
+public class BaseTest {
+	
+	
+	
+	
+	public void initilizeDriver() {
+		
+	}
+
+}

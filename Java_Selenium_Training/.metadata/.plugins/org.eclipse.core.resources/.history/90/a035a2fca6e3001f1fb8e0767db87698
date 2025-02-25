@@ -1,0 +1,23 @@
+package CoforgeJavaTraining;
+
+public class c2 {
+	
+	static String name;
+	static int age;
+	
+	
+	public c2(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	
+	
+
+	public static void main(String[] args) {
+		
+		c2 c = new c2("Coforge", 5);
+		System.out.println(c.age);
+		c
+	}
+
+}

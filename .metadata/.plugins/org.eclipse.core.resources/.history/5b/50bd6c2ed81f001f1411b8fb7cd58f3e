@@ -1,0 +1,20 @@
+package StringPrograms;
+
+public class OverloadingForMainMethod {
+	
+	
+	void main() {
+		System.out.println("simple main method");
+	}
+	
+	static void main(int x) {
+		System.out.println("simple main method with parameter");
+	}
+	
+
+	// JVM always looks for standard main method
+	public static void main(String[] args) {
+		
+	}
+	
+}

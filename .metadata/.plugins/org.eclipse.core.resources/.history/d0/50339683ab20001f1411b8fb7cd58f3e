@@ -1,0 +1,21 @@
+package StringPrograms;
+import java.util.*;
+public class calculatedistance {
+
+	public static void main(String[] args) {
+
+		Scanner sc=new Scanner(System.in);
+		double u,t,a,s;
+		
+		System.out.println ("FIND THE ACCELERATION ");
+		 
+		u=sc.nextDouble();
+		t=sc.nextDouble();
+		a=sc.nextDouble();
+		s=sc.nextDouble();
+		 
+		s=u*t*1.0/2.0*a *Math.pow(t,2) ;
+		
+		System.out.println("THE DISTANCE IS:"  +s);
+	}
+}

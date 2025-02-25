@@ -1,0 +1,11 @@
+package Day1;
+
+public class AccessModifiersDefaultChildSamePackage extends AccessModifiersProtectedParent{
+	
+	public static void main(String args[])
+    {
+		AccessModifiersDefault child = new AccessModifiersDefault();
+		child.display();
+    }
+
+}

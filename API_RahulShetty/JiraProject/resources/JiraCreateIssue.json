@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "project": {
+      "key": "AF"
+    },
+    "summary": "Adobe : Cert Issue",
+    "description": " issue related to Certificate",
+    "issuetype": {
+      "name": "Bug"
+    }
+  }
+}

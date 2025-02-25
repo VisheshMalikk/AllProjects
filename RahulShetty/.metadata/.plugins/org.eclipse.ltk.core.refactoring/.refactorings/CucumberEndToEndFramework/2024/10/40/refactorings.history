@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;CucumberEndToEndFramework&apos;&#x0D;&#x0A;- Original project: &apos;CucumberEndToEndFramework&apos;&#x0D;&#x0A;- Original element: &apos;CucumberEndToEndFramework/src/main/java/VisheshMalikAcademy.CucumberEndToEndFramework&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;VisheshMalikAcademy.CucumberEndToEndFramework" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;VisheshMalikAcademy" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1728050466793" subPackages="false" version="1.0"/>
+</session>

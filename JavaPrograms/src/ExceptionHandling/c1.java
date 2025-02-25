@@ -1,0 +1,21 @@
+package ExceptionHandling;
+
+public class c1 {
+
+	public static void main(String[] args) {
+
+		int a = 90;
+		int b = 100;
+		int c = 0;
+
+		try {
+			c = a + b;
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		} catch (Exception e) { // CE : Unreachable catch block for Exception. It is already handled by the catch block for Exception
+			System.out.println(e.getMessage());
+		}
+		System.out.println(c);
+	}
+
+}

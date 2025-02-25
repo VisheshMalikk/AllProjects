@@ -1,0 +1,22 @@
+package FileHandling;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class ReadToFile {
+
+	public static void main(String[] args) throws IOException {
+
+		File reader = new File("C:\\Users\\Vishesh.1.Malik\\Downloads\\ReadFile.txt");
+
+		Scanner scan = new Scanner(reader);
+		
+		while (scan.hasNextLine()) {
+			String data = scan.nextLine();
+			System.out.println(data);
+		}
+		scan.close();
+	}
+
+}

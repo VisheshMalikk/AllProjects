@@ -1,0 +1,32 @@
+package ArrayPrograms;
+
+public class sum {
+
+	public static void main(String[] args) {
+		
+		sum obj = new sum();
+		int resultAddition = obj.addition(10, 5);
+		System.out.println(resultAddition);
+	}
+
+	public int addition(int a, int b) {
+		int sum = a + b;
+		return sum;
+	}
+	
+	
+	
+
+	public void subtraction(int x, int y) {
+		int sub = x-y;
+	}
+
+	public void division(int c, int d) {
+		int div = c/d;
+	}
+
+	public void multiplication(int k, int l) {
+		int mult = k*l;
+	}
+
+}

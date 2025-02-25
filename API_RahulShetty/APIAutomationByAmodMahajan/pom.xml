@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>APIAutomationByAmodMahajan</groupId>
+	<artifactId>APIAutomationByAmodMahajan</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<description>EndToEndAutomationFramework</description>
+
+	<properties>
+		<restassuredVersion>5.3.1</restassuredVersion>
+		<testngVersion>7.7.0</testngVersion>
+		<jacksonVersion>2.16.0</jacksonVersion>
+		<extentreportVersion>5.0.9</extentreportVersion>
+		<javafakeVersion>1.0.2</javafakeVersion>
+		<lombokVersion>1.18.24</lombokVersion>
+		<apacheCommonLangVersion>3.12.0</apacheCommonLangVersion>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>${restassuredVersion}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testngVersion}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jacksonVersion}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>${extentreportVersion}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.javafaker</groupId>
+			<artifactId>javafaker</artifactId>
+			<version>${javafakeVersion}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombokVersion}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${apacheCommonLangVersion}</version>
+		</dependency>
+
+
+	</dependencies>
+</project>

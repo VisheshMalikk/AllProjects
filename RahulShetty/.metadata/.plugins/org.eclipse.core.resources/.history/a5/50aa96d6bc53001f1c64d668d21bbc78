@@ -1,0 +1,16 @@
+package Practice;
+
+public class c13 {
+
+	public static void main(String[] args) {
+
+
+		char[] str = {'h', 'i'};
+		
+		String newStr = new String(str);
+		
+		System.out.println(newStr);
+
+	}
+
+}

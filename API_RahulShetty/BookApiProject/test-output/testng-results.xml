@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-28T10:42:58 IST" name="Default suite" finished-at="2024-09-28T10:43:02 IST" duration-ms="3958">
+    <groups>
+    </groups>
+    <test started-at="2024-09-28T10:42:58 IST" name="Default test" finished-at="2024-09-28T10:43:02 IST" duration-ms="3958">
+      <class name="Tests.DynamicJsonBooksTest">
+        <test-method signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:Tests.DynamicJsonBooksTest@306cf3ea]" started-at="2024-09-28T10:42:58 IST" name="addBook" data-provider="BooksData" finished-at="2024-09-28T10:43:02 IST" duration-ms="3884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- Tests.DynamicJsonBooksTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

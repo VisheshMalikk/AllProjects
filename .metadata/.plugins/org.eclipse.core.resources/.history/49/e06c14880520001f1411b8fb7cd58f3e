@@ -1,0 +1,22 @@
+import java.io.BufferedReader;
+
+public class myname {
+
+	public static void main(String[] args) {
+	 
+		BufferedReader br=BufferedReader(new Inputstreamreader(System.in));
+		
+
+	
+	
+	String firstname = br.readLine();
+	String  lastname = br.readLine();
+	 System.out.println("MY FULL NAME IS:" + firstname);
+	 System.out.println("my full name is:" + lastname);
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,36 @@
+package StringPrograms;
+import java.util.*;
+public class numberispositiveornegative {
+
+	public static void main(String[] args) {
+
+	Scanner sc=new Scanner(System.in);
+	
+	int x;
+	x=sc.nextInt();
+	  if(x>0) {
+		  System.out.println("THE NUMBER IS POSITIVE");
+		  
+	  } if(x<0) {
+		  System.out.println("THE NUMBER IS NEGATIVE");
+		  
+	  }if (x==0){
+		  System.out.println("THE NUMBER IS ZERO");
+		  
+	  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

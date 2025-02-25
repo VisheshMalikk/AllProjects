@@ -1,0 +1,13 @@
+package GetRequest;
+
+import org.testng.annotations.Test;
+
+public class createGetRequest {
+	
+	
+	@Test
+	public void getBooking() {
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package StringPrograms;
+
+public class OverloadingForMainMethod {
+	
+	
+	void main() {
+		System.out.println("simple main method");
+	}
+	
+	static void main(int x) {
+		System.out.println("simple main method with parameter");
+	}
+	
+
+}

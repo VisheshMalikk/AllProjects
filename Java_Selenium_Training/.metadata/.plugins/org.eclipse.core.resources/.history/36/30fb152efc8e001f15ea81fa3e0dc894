@@ -1,0 +1,8 @@
+package Day1;
+
+public class protAccModifier {
+	String fname = "Vishesh";
+	String lname = "Malik";
+	String email = "VMalik@doe.com";
+	int age = 27;
+}

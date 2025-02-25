@@ -1,0 +1,18 @@
+package StringPrograms;
+
+public class conditionalstatement {
+
+	public static void main(String[] args) {
+
+		int x;
+		int y;
+		x = 89;
+		y = 195;
+
+		if (x == y) {
+
+		}
+
+	}
+
+}

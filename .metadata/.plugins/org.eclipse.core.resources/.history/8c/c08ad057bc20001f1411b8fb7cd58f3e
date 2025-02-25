@@ -1,0 +1,11 @@
+package StringPrograms;
+import java.util.*;
+public class switchcase {
+
+  Scanner sc=new Scanner(System.in);
+  
+  int s,ar,per,ch;
+  
+  System.out.println("SIDE OF A TRIANGLE");
+  s=sc.nextInt();
+  

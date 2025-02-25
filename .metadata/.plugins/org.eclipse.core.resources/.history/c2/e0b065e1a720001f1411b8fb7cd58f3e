@@ -1,0 +1,45 @@
+package StringPrograms;
+
+public class mathclass {
+
+	public static void main(String[] args) {
+		
+double a=5;
+double b=2;
+  System.out.println("print the mathematical functions");
+double i = Math.min(a, b);
+double c = Math.max(a, b);
+double  d= Math.pow(a,b);
+double e= Math.cbrt(a);
+double r= Math.sqrt(a);
+double n= Math.abs(a);
+long v= Math.round(a);
+double m= Math.ceil(a);
+double y= Math.floor(a);
+double q= Math.rint(a);
+double l= Math.log(a);
+double t= Math.exp(a);	
+double o= Math.random();
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

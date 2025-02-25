@@ -1,0 +1,11 @@
+package StringPrograms;
+
+public class OverloadingForMainMethod {
+	
+	
+	void main() {
+		System.out.println("simple main method");
+	}
+	
+
+}

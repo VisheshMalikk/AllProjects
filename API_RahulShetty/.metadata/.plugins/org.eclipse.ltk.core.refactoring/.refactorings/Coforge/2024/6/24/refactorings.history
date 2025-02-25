@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;series.java&apos; to &apos;Coforge/src/files&apos;&#x0D;&#x0A;- Original project: &apos;Coforge&apos;&#x0D;&#x0A;- Destination element: &apos;Coforge/src/files&apos;&#x0D;&#x0A;- Original element: &apos;series.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;files" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;{series.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1718439184873" units="1" version="1.0"/>
+</session>

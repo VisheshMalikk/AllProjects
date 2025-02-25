@@ -1,0 +1,315 @@
+2023-06-16 16:36:54,644 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-16 16:37:30,435 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-javadoc.jar
+2023-06-16 16:37:30,458 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.google.code.findbugs:jsr305:1.3.9
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.code.findbugs:jsr305:jar:javadoc:1.3.9
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-06-16 16:43:33,171 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-16 16:43:33,183 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-16 16:48:39,514 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-16 16:48:39,535 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-16 16:49:44,150 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-16 16:49:44,165 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-16 16:52:35,542 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-16 16:52:35,547 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-16 16:53:54,555 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-16 16:53:54,559 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-16 16:59:34,569 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-16 16:59:34,585 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-16 17:04:12,700 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-16 17:04:12,713 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 10:36:24,283 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-17 10:49:28,234 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 10:49:28,246 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 10:49:32,901 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 10:49:32,906 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 10:51:41,833 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 10:51:41,855 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 10:52:44,180 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 10:52:44,183 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 10:53:39,399 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 10:53:39,403 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 10:59:23,867 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 10:59:23,871 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 12:20:24,737 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-17 13:02:36,605 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 13:02:36,637 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 13:02:38,738 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 13:02:38,743 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 13:10:16,239 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 13:10:16,258 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 13:10:23,167 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 13:10:23,171 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 13:12:34,434 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 13:12:34,440 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 13:15:24,816 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 13:15:24,821 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 13:22:48,923 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 13:22:48,925 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 13:29:44,887 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 13:29:44,892 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-17 13:38:28,171 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-17 13:38:28,175 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-06-27 19:01:33,789 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-27 19:01:34,617 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-06-27 19:01:37,180 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-06-27 19:01:37,186 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-08-06 21:30:26,459 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-25 16:17:58,030 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-09-25 16:25:58,873 [Worker-7: Launching virtualDeviceTesting] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-25 16:25:58,908 [Worker-7: Launching virtualDeviceTesting] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 11:23:36,261 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-26 11:38:24,695 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 11:38:24,715 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 11:56:07,562 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 11:56:07,575 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 11:56:20,973 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 11:56:20,977 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 11:57:25,024 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 11:57:25,027 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 12:00:56,399 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 12:00:56,401 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 12:01:03,608 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 12:01:03,612 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 12:05:20,036 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 12:05:20,049 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 14:55:56,212 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 14:55:56,216 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 14:57:15,739 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 14:57:15,744 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:05:15,449 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:05:15,453 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:05:49,473 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:05:49,475 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:08:22,053 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:08:22,056 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:08:45,678 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:08:45,681 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:22:01,499 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:22:01,501 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:22:35,587 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:22:35,594 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:23:06,869 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:23:06,871 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:27:13,965 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:27:13,968 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:34:14,056 [Worker-43: Launching virtualDeviceTesting] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:34:14,059 [Worker-43: Launching virtualDeviceTesting] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:46:32,763 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:46:32,777 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-09-26 15:47:54,724 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2023-09-26 15:47:54,727 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2023-10-16 15:43:29,505 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-10-16 15:43:30,494 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-12-09 10:59:31,401 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-09 11:17:32,099 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-24 15:52:51,646 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-24 15:57:16,687 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RahulShettyAutomationUdemyCourse:RahulShettyAutomation:0.0.1-SNAPSHOT @ C:\Users\Vishesh.1.Malik\GitByRahulShetty\pom.xml.
+2024-02-24 15:57:32,553 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Vishesh.1.Malik\GitByRahulShetty\src\main\resources
+2024-02-24 15:57:32,558 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Vishesh.1.Malik\GitByRahulShetty\src\test\resources
+2024-02-24 15:57:46,818 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\main\resources
+2024-02-24 15:57:46,826 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\MobileTesting\src\test\resources
+2024-02-24 16:52:46,096 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Vishesh.1.Malik\GitByRahulShetty\src\main\resources
+2024-02-24 16:52:46,100 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Vishesh.1.Malik\GitByRahulShetty\src\test\resources
+2024-02-24 17:23:12,062 [Worker-35: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - File not found: C:\Users\Vishesh.1.Malik\GitByRahulShetty\pom.xml.
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\Vishesh.1.Malik\GitByRahulShetty\pom.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:583)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:485)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:362)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:314)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:196)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:289)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: File not found: C:\Users\Vishesh.1.Malik\GitByRahulShetty\pom.xml.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 27 common frames omitted
+2024-03-02 08:11:19,235 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-03-02 08:11:51,905 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RahulShettyAcademy:SeleniumFrameworkDesign:0.0.1-SNAPSHOT @ C:\AutomationPractice\RahulShetty\SeleniumFrameworkDesign\pom.xml.
+2024-03-02 08:11:52,458 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RahulShettyAcademy:SeleniumFrameworkDesign:0.0.1-SNAPSHOT @ C:\AutomationPractice\RahulShetty\SeleniumFrameworkDesign\pom.xml.
+2024-03-02 08:11:54,412 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\RahulShetty\SeleniumFrameworkDesign\src\main\resources
+2024-03-02 08:11:54,416 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\RahulShetty\SeleniumFrameworkDesign\src\test\resources
+2024-03-02 08:11:57,114 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RahulShettyAcademy:SeleniumFrameworkDesign:0.0.1-SNAPSHOT @ C:\AutomationPractice\RahulShetty\SeleniumFrameworkDesign\pom.xml.
+2024-04-06 16:10:32,953 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-07 18:12:52,997 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-04-11 09:31:34,210 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-30 07:56:02,850 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-30 07:56:15,964 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\RahulShetty\SeleniumFrameworkDesign\src\main\resources
+2024-05-30 07:56:15,973 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\RahulShetty\SeleniumFrameworkDesign\src\test\resources
+2024-05-30 07:57:26,587 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: EcommerceEndToEndFlowAuthConcepts:EcommerceEndToEndFlowAuthConcepts:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\EcommerceEndToEndFlowAuthConcepts\pom.xml.
+2024-05-30 07:57:27,358 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 07:57:27,361 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\EcommerceEndToEndFlowAuthConcepts\src\main\resources
+2024-05-30 07:57:27,368 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 07:57:27,372 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\EcommerceEndToEndFlowAuthConcepts\src\test\resources
+2024-05-30 07:57:29,010 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: EcommerceEndToEndFlowAuthConcepts:EcommerceEndToEndFlowAuthConcepts:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\EcommerceEndToEndFlowAuthConcepts\pom.xml.
+2024-05-30 07:57:58,069 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BDD:RestAssuredAPIFramework:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\RestAssuredAPIFramework\pom.xml.
+2024-05-30 07:57:58,581 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2024-05-30 07:57:58,663 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2024-05-30 07:57:59,279 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 07:57:59,285 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-30 07:57:59,289 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 07:57:59,292 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-30 07:58:00,757 [Worker-20: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BDD:RestAssuredAPIFramework:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\RestAssuredAPIFramework\pom.xml.
+2024-05-30 07:58:21,279 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JiraProject:JiraProject:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\JiraProject\pom.xml.
+2024-05-30 07:58:21,854 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 07:58:21,856 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\main\resources
+2024-05-30 07:58:21,859 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 07:58:21,861 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\test\resources
+2024-05-30 07:58:22,965 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JiraProject:JiraProject:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\JiraProject\pom.xml.
+2024-05-30 07:58:44,314 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ProjectWithPojoClasses:ProjectWithPojoClasses:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\ProjectWithPojoClasses\pom.xml.
+2024-05-30 07:58:44,789 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 07:58:44,792 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\ProjectWithPojoClasses\src\main\resources
+2024-05-30 07:58:44,796 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 07:58:44,799 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\ProjectWithPojoClasses\src\test\resources
+2024-05-30 07:58:45,844 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ProjectWithPojoClasses:ProjectWithPojoClasses:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\ProjectWithPojoClasses\pom.xml.
+2024-05-30 07:59:32,934 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: GrantTypeOAuth2Project:GrantTypeOAuth2Project:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\GrantTypeOAuth2Project\pom.xml.
+2024-05-30 07:59:34,761 [Worker-7: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 07:59:34,763 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\GrantTypeOAuth2Project\src\main\resources
+2024-05-30 07:59:34,766 [Worker-7: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 07:59:34,768 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\GrantTypeOAuth2Project\src\test\resources
+2024-05-30 07:59:34,863 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: GrantTypeOAuth2Project:GrantTypeOAuth2Project:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\GrantTypeOAuth2Project\pom.xml.
+2024-05-30 08:00:44,400 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-30 08:00:44,676 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: EcommerceEndToEndFlowAuthConcepts:EcommerceEndToEndFlowAuthConcepts:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\EcommerceEndToEndFlowAuthConcepts\pom.xml.
+2024-05-30 08:00:45,206 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EcommerceEndToEndFlowAuthConcepts/src
+2024-05-30 08:00:45,207 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /EcommerceEndToEndFlowAuthConcepts/src/main/resources overlaps with sources folder /EcommerceEndToEndFlowAuthConcepts/src
+2024-05-30 08:00:45,208 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /EcommerceEndToEndFlowAuthConcepts/src/test/java because it overlaps with /EcommerceEndToEndFlowAuthConcepts/src
+2024-05-30 08:00:45,209 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /EcommerceEndToEndFlowAuthConcepts/src/test/resources overlaps with sources folder /EcommerceEndToEndFlowAuthConcepts/src
+2024-05-30 08:00:45,209 [Worker-11: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-17', falling back to workspace default
+2024-05-30 08:00:45,646 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-30 08:00:45,761 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:00:45,764 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\EcommerceEndToEndFlowAuthConcepts\src\main\resources
+2024-05-30 08:00:45,768 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:00:45,771 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\EcommerceEndToEndFlowAuthConcepts\src\test\resources
+2024-05-30 08:01:05,465 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-30 08:01:05,636 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: EcommerceEndToEndFlowAuthConcepts:EcommerceEndToEndFlowAuthConcepts:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\EcommerceEndToEndFlowAuthConcepts\pom.xml.
+2024-05-30 08:01:06,106 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EcommerceEndToEndFlowAuthConcepts/src
+2024-05-30 08:01:06,106 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /EcommerceEndToEndFlowAuthConcepts/src/main/resources overlaps with sources folder /EcommerceEndToEndFlowAuthConcepts/src
+2024-05-30 08:01:06,107 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /EcommerceEndToEndFlowAuthConcepts/src/test/java because it overlaps with /EcommerceEndToEndFlowAuthConcepts/src
+2024-05-30 08:01:06,107 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /EcommerceEndToEndFlowAuthConcepts/src/test/resources overlaps with sources folder /EcommerceEndToEndFlowAuthConcepts/src
+2024-05-30 08:01:06,107 [Worker-13: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-17', falling back to workspace default
+2024-05-30 08:01:06,303 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-30 08:01:06,418 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:01:06,421 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\EcommerceEndToEndFlowAuthConcepts\src\main\resources
+2024-05-30 08:01:06,425 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:01:06,428 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\EcommerceEndToEndFlowAuthConcepts\src\test\resources
+2024-05-30 08:05:01,822 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BookApiProject:BookApiProject:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\BookApiProject\pom.xml.
+2024-05-30 08:05:02,384 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:05:02,387 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\BookApiProject\src\main\resources
+2024-05-30 08:05:02,390 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:05:02,393 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\BookApiProject\src\test\resources
+2024-05-30 08:05:02,537 [Worker-15: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BookApiProject:BookApiProject:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\BookApiProject\pom.xml.
+2024-05-30 08:05:17,119 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-30 08:05:17,218 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BookApiProject:BookApiProject:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\BookApiProject\pom.xml.
+2024-05-30 08:05:17,516 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BookApiProject/src
+2024-05-30 08:05:17,516 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /BookApiProject/src/main/resources overlaps with sources folder /BookApiProject/src
+2024-05-30 08:05:17,516 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /BookApiProject/src/test/java because it overlaps with /BookApiProject/src
+2024-05-30 08:05:17,516 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /BookApiProject/src/test/resources overlaps with sources folder /BookApiProject/src
+2024-05-30 08:05:17,516 [Worker-11: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-17', falling back to workspace default
+2024-05-30 08:05:17,697 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-30 08:05:17,857 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:05:17,859 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\BookApiProject\src\main\resources
+2024-05-30 08:05:17,860 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:05:17,862 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\BookApiProject\src\test\resources
+2024-05-30 08:20:57,692 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-30 08:20:57,808 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JiraProject:JiraProject:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\JiraProject\pom.xml.
+2024-05-30 08:20:58,226 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JiraProject/src
+2024-05-30 08:20:58,226 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /JiraProject/src/main/resources overlaps with sources folder /JiraProject/src
+2024-05-30 08:20:58,227 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /JiraProject/src/test/java because it overlaps with /JiraProject/src
+2024-05-30 08:20:58,227 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /JiraProject/src/test/resources overlaps with sources folder /JiraProject/src
+2024-05-30 08:20:58,227 [Worker-11: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-17', falling back to workspace default
+2024-05-30 08:20:58,471 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-30 08:20:58,582 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:20:58,583 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\main\resources
+2024-05-30 08:20:58,585 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:20:58,587 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\test\resources
+2024-05-30 08:32:10,698 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-30 08:32:10,847 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JiraProject:JiraProject:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\JiraProject\pom.xml.
+2024-05-30 08:32:11,317 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JiraProject/src
+2024-05-30 08:32:11,318 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /JiraProject/src/main/resources overlaps with sources folder /JiraProject/src
+2024-05-30 08:32:11,318 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /JiraProject/src/test/java because it overlaps with /JiraProject/src
+2024-05-30 08:32:11,318 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /JiraProject/src/test/resources overlaps with sources folder /JiraProject/src
+2024-05-30 08:32:11,318 [Worker-11: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-17', falling back to workspace default
+2024-05-30 08:32:11,579 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-30 08:32:11,699 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:32:11,702 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\main\resources
+2024-05-30 08:32:11,707 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:32:11,709 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\test\resources
+2024-05-30 08:32:17,742 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:32:17,745 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\main\resources
+2024-05-30 08:32:17,748 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:32:17,750 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\test\resources
+2024-05-30 08:32:37,968 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:32:37,972 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\main\resources
+2024-05-30 08:32:37,975 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:32:37,978 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\test\resources
+2024-05-30 08:32:48,196 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-30 08:32:48,321 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JiraProject:JiraProject:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\JiraProject\pom.xml.
+2024-05-30 08:32:48,783 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JiraProject/src
+2024-05-30 08:32:48,783 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /JiraProject/src/main/resources overlaps with sources folder /JiraProject/src
+2024-05-30 08:32:48,783 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /JiraProject/src/test/java because it overlaps with /JiraProject/src
+2024-05-30 08:32:48,783 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /JiraProject/src/test/resources overlaps with sources folder /JiraProject/src
+2024-05-30 08:32:48,783 [Worker-35: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-17', falling back to workspace default
+2024-05-30 08:32:48,946 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-30 08:32:49,059 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:32:49,060 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\main\resources
+2024-05-30 08:32:49,062 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:32:49,064 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\test\resources
+2024-05-30 08:33:02,546 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:33:02,548 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\main\resources
+2024-05-30 08:33:02,550 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:33:02,552 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\test\resources
+2024-05-30 08:33:22,955 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:33:22,957 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\main\resources
+2024-05-30 08:33:22,959 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:33:22,961 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\test\resources
+2024-05-30 08:34:43,526 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:34:43,528 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\main\resources
+2024-05-30 08:34:43,530 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 08:34:43,531 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\JiraProject\src\test\resources
+2024-05-30 09:10:02,338 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-30 09:10:02,485 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: GrantTypeOAuth2Project:GrantTypeOAuth2Project:0.0.1-SNAPSHOT @ C:\AutomationPractice\API_RahulShetty\GrantTypeOAuth2Project\pom.xml.
+2024-05-30 09:10:03,865 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GrantTypeOAuth2Project/src
+2024-05-30 09:10:03,866 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /GrantTypeOAuth2Project/src/main/resources overlaps with sources folder /GrantTypeOAuth2Project/src
+2024-05-30 09:10:03,866 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /GrantTypeOAuth2Project/src/test/java because it overlaps with /GrantTypeOAuth2Project/src
+2024-05-30 09:10:03,866 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /GrantTypeOAuth2Project/src/test/resources overlaps with sources folder /GrantTypeOAuth2Project/src
+2024-05-30 09:10:03,866 [Worker-41: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-17', falling back to workspace default
+2024-05-30 09:10:04,368 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2024-05-30 09:10:04,482 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 09:10:04,485 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\GrantTypeOAuth2Project\src\main\resources
+2024-05-30 09:10:04,487 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-05-30 09:10:04,490 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\AutomationPractice\API_RahulShetty\GrantTypeOAuth2Project\src\test\resources

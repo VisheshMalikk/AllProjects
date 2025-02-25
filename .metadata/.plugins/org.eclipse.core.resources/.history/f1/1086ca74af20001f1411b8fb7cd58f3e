@@ -1,0 +1,20 @@
+package StringPrograms;
+
+public class conditionalstatement {
+
+	public static void main(String[] args) {
+
+		int x;
+		int y;
+		x = 292938;
+		y = 292938;
+
+		if (x !=y) {
+			System.out.println("X IS EQUAL TO Y");
+		} else {
+			System.out.println("X IS NOT EQUAL TO Y");
+		}
+
+	}
+
+}

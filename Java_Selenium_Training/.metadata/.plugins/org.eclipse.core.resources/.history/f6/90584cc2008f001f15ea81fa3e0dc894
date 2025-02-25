@@ -1,0 +1,10 @@
+package Other;
+
+public class AccessModifiersProtectedChildAnotherPackage {
+	
+	public static void main(String args[])
+    {
+		display();
+    }
+
+}

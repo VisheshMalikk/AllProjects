@@ -1,0 +1,23 @@
+package Day1;
+
+public class AccessModifiersPublic {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+public class Vehicle {
+	// Public variable
+	public String type;
+
+	// Constructor
+	public Vehicle(String type) {
+		this.type = type;
+	}
+
+	// Public method
+	public void displayInfo() {
+	        System.out.println("Vehicle Type: " + type);
+	    }

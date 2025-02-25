@@ -1,0 +1,12 @@
+package Other;
+
+import Other.AccessModifiersProtectedParent;
+
+public class AccessModifiersProtectedChildAnotherPackage extends AccessModifiersProtectedParent{
+	
+	public static void main(String args[])
+    {
+		display();
+    }
+
+}

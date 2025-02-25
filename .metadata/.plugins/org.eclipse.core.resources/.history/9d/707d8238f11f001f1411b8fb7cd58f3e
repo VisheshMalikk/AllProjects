@@ -1,0 +1,11 @@
+package ArrayPrograms;
+
+public class CreateTwoArrayFromOneOddEven {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

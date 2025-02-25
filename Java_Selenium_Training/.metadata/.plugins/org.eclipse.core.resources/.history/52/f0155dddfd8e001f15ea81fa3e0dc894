@@ -1,0 +1,31 @@
+package Day1;
+
+public class AccessModifiersPublic1 {
+
+	public static void main(String[] args) {
+		// Creating an instance of the Vehicle class
+		Vehicle car = new Vehicle("Car");
+
+		// Accessing the public variable
+		System.out.println("Vehicle Type: " + car.type);
+
+		// Calling the public method
+		car.displayInfo();
+	}
+
+}
+
+class Vehicle {
+	// Public variable
+	public String type;
+
+	// Constructor
+	public Vehicle(String type) {
+		this.type = type;
+	}
+
+	// Public method
+	public void displayInfo() {
+		System.out.println("Vehicle Type: " + type);
+	}
+}

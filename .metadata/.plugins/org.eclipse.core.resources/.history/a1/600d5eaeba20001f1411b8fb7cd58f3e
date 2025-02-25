@@ -1,0 +1,36 @@
+package StringPrograms;
+import java.util.*;
+public class ternaryoperator {
+
+	public static void main(String[] args) {
+
+	Scanner sc=new Scanner(System.in);	
+	
+	int a;
+	
+	a=40;
+	a=sc.nextInt();
+	
+	System.out.println("ENTER A NUMBER");
+	String n = (a>25)? "a is greater than 25": "a is smaller than 25";
+	 
+	System.out.println("THE RESULT IS :" + n);
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

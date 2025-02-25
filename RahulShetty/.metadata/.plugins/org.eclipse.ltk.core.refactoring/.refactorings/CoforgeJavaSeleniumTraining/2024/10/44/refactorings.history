@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;TestCases.WindowHandling&apos; to &apos;WindowHandlingBasedOnTitleName&apos;&#x0D;&#x0A;- Original project: &apos;CoforgeJavaSeleniumTraining&apos;&#x0D;&#x0A;- Original element: &apos;TestCases.WindowHandling&apos;&#x0D;&#x0A;- Renamed element: &apos;TestCases.WindowHandlingBasedOnTitleName&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WindowHandling&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;TestCases{WindowHandling.java[WindowHandling" matchStrategy="1" name="WindowHandlingBasedOnTitleName" qualified="false" references="true" similarDeclarations="false" stamp="1730010647891" textual="false" version="1.0"/>
+</session>
